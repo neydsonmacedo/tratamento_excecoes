@@ -56,7 +56,7 @@ public class Account {
 		balance -= amount;
 	}
 	
-	public void valdiadeWithdraw(double amount) {
+	private void valdiadeWithdraw(double amount) {
 		if(amount > withdrawLimit ) {
 			throw new DomainException("Withdraw error: The amount exceeds withdraw limit");
 		}

@@ -43,6 +43,9 @@ public class Account {
 	public Double getWithdrawLimit() {
 		return withdrawLimit;
 	}
+	public void setWithdrawLimit(Double withdrawLimit) {
+		this.withdrawLimit = withdrawLimit;
+	}
 	
 	public void deposit(double amount) {
 		balance += amount;
